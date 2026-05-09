@@ -1,26 +1,122 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --charcoal: #2A2A2A;
+  --warm-white: #FFFFFF;
+  --light-bg: #F9F7F4;
+  --accent-primary: #B8956A;
+  --accent-secondary: #D4C5B0;
+  --accent-dark: #8A7356;
+  --soft-gray: #F4F2EF;
+  --muted-text: #6D6D6D;
+  --border-color: #E8E6E3;
+  --cream: #FBF9F6;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  /* Custom Colors */
+  --color-charcoal: var(--charcoal);
+  --color-light-bg: var(--light-bg);
+  --color-warm-white: var(--warm-white);
+  --color-accent-primary: var(--accent-primary);
+  --color-accent-secondary: var(--accent-secondary);
+  --color-accent-dark: var(--accent-dark);
+  --color-soft-gray: var(--soft-gray);
+  --color-muted-text: var(--muted-text);
+  --color-border: var(--border-color);
+  --color-cream: var(--cream);
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  /* Font Family */
+  --font-sans: var(--font-inter);
+
+  /* Typography Scale - Elegant & Refined */
+  --font-size-h1-mobile: 2.5rem;
+  --font-size-h1-desktop: 4rem;
+  --font-size-h2-mobile: 1.875rem;
+  --font-size-h2-desktop: 3rem;
+  --font-size-body: 1.0625rem;
+
+  /* Spacing - Generous & Elegant */
+  --spacing-section: 10rem;
+  --spacing-section-mobile: 5rem;
+  --max-width-content: 1400px;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--warm-white);
+  color: var(--charcoal);
+  font-size: var(--font-size-body);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--charcoal);
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: normal;
+}
+
+h1 {
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 700;
+}
+
+h2 {
+  font-size: clamp(1.75rem, 4vw, 2.25rem);
+  font-weight: 600;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem; /* Account for fixed header */
+}
+
+/* Custom cursor effect */
+body {
+  cursor: default;
+}
+
+a, button {
+  cursor: pointer;
+}
+
+/* Selection color */
+::selection {
+  background-color: var(--accent-primary);
+  color: white;
+}
+
+/* Reduced motion for accessibility */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Focus states for accessibility */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 2px solid var(--accent-primary);
+  outline-offset: 2px;
 }
