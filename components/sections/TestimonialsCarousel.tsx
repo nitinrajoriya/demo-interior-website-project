@@ -3,14 +3,7 @@
 import React, { useCallback, useEffect } from 'react';
 import useEmblaCarousel from 'embla-carousel-react';
 import Autoplay from 'embla-carousel-autoplay';
-
-interface Testimonial {
-  id: number;
-  name: string;
-  quote: string;
-  projectType: string;
-  rating: number;
-}
+import { Testimonial } from '@/lib/types';
 
 interface TestimonialsCarouselProps {
   testimonials: Testimonial[];
