@@ -33,12 +33,11 @@ export default function Header() {
         <Link href="/" className="flex items-center group">
           <div className="relative">
             <Image
-              src="/logos/homeshine-logo.png"
-              alt="HomeShine Interior Design"
-              width={180}
-              height={60}
-              className="h-14 w-auto brightness-0 group-hover:brightness-75 transition-all duration-300"
-              style={{ filter: 'brightness(0) saturate(100%)' }}
+              src="/logos/homeshine-new-logo.jpeg"
+              alt="HomeShine Interior Solution"
+              width={200}
+              height={80}
+              className="h-16 w-auto object-contain group-hover:opacity-80 transition-all duration-300"
               priority
             />
           </div>
