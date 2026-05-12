@@ -33,6 +33,7 @@ export const projects: Project[] = [
     images: [
       'https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&q=80',
       'https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=1200&q=80',
+      'https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=1200&q=80',
     ],
     description: 'A modern tech company office designed to foster collaboration and productivity. Open-plan workspaces, vibrant breakout areas, and sophisticated meeting rooms create an inspiring work environment.',
     details: {
@@ -72,6 +73,7 @@ export const projects: Project[] = [
     images: [
       'https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=1200&q=80',
       'https://images.unsplash.com/photo-1631049421450-348ccd7f8949?w=1200&q=80',
+      'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=1200&q=80',
     ],
     description: 'A 15-room boutique hotel blending contemporary design with local artistic influences. Each space tells a story, creating memorable experiences for guests.',
     details: {
@@ -91,6 +93,7 @@ export const projects: Project[] = [
     images: [
       'https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=1200&q=80',
       'https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=1200&q=80',
+      'https://images.unsplash.com/photo-1600210492493-0946911123ea?w=1200&q=80',
     ],
     description: 'A serene 2-bedroom apartment embracing minimalist aesthetics. Clean lines, neutral palette, and thoughtful storage create a calming urban retreat.',
     details: {
@@ -109,6 +112,8 @@ export const projects: Project[] = [
     thumbnail: 'https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=800&q=80',
     images: [
       'https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=1200&q=80',
+      'https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&q=80',
+      'https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=1200&q=80',
     ],
     description: 'A dynamic workspace for a growing startup. Flexible seating arrangements, creative zones, and energizing colors promote innovation and team collaboration.',
     details: {
@@ -128,6 +133,7 @@ export const projects: Project[] = [
     images: [
       'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=80',
       'https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1200&q=80',
+      'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1200&q=80',
     ],
     description: 'An opulent 5-bedroom penthouse with panoramic city views. Luxurious materials, custom furniture, and smart home integration create ultimate urban living.',
     details: {
@@ -146,6 +152,8 @@ export const projects: Project[] = [
     thumbnail: 'https://images.unsplash.com/photo-1556911220-e15b29be8c8f?w=800&q=80',
     images: [
       'https://images.unsplash.com/photo-1556911220-e15b29be8c8f?w=1200&q=80',
+      'https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?w=1200&q=80',
+      'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1200&q=80',
     ],
     description: 'A functional and stylish modular kitchen with modern appliances and smart storage. Perfect blend of aesthetics and practicality for everyday living.',
     details: {
