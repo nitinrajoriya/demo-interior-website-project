@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: "HomeShine Interior",
     images: [
       {
-        url: "/logos/homeshine-new-logo.jpeg",
+        url: "/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "HomeShine Interior Logo",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "HomeShine Interior | Premium Interior Design in Pune",
     description: "Transform your space with HomeShine Interior. Expert modular kitchen, residential, and commercial interior design services in Pune.",
-    images: ["/logos/homeshine-new-logo.jpeg"],
+    images: ["/og-image.jpg"],
   },
 };
 
