@@ -83,7 +83,7 @@ export default function Hero() {
 
               <Link
                 href="/contact"
-                className="inline-flex items-center justify-center px-10 py-5 border-2 border-white text-white text-sm uppercase tracking-wider font-medium hover:bg-white/10 transition-all duration-300"
+                className="inline-flex items-center justify-center px-10 py-5 bg-white text-charcoal text-sm uppercase tracking-wider font-medium hover:bg-white/90 transition-all duration-300"
               >
                 Book Consultation
               </Link>
